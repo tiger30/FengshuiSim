@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/linear_trang_chu"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:clickable="true">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp" >
+
+            <ImageView
+                android:id="@+id/imgMenhAvatar"
+                android:layout_width="wrap_content"
+                android:layout_height="190dp"
+                android:src="@drawable/chu_phong_thuy_sim" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lbl_Trang_chu_so_dien_thoai" />
+
+            <EditText
+                android:id="@+id/txt_home_number_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:imeOptions="actionSearch"
+                android:inputType="numberSigned"
+                android:singleLine="true"  
+                android:focusableInTouchMode="true"/>
+
+            <Button
+                android:id="@+id/btn_trang_chu_tim_sim"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/button"
+                android:text="@string/btn_tim_sim"
+                android:textColor="@color/white" />
+            
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

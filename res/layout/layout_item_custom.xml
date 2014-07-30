@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <!--
+         <TextView
+        android:id="@+id/lbl_tim_sim_gia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lbl_tim_sim_dinh_dang"
+        android:layout_alignBottom="@+id/lbl_tim_sim_dinh_dang"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="28dp"
+        android:text="TextView"
+       	style="@style/mediumText1" />
+
+    <TextView
+        android:id="@+id/lbl_tim_sim_dinh_dang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:text="TextView"          
+    	style="@style/mediumText1" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lbl_tim_sim_phong_thuy"
+        android:layout_alignBottom="@+id/lbl_tim_sim_phong_thuy"
+        android:layout_toLeftOf="@+id/imgMenhAvatar"
+        android:text="/10"
+        android:textColor="@color/mColorTextView" />
+
+    <TextView
+        android:id="@+id/lbl_tim_sim_diem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_toLeftOf="@+id/textView1"
+        android:text="TextView"
+        android:textColor="@color/mColorTextView" />
+
+    <TextView
+        android:id="@+id/lbl_tim_sim_mang"
+        style="@style/smallText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/textView2"
+        android:text="TextView" />
+
+    <ImageView
+        android:id="@+id/imgMenhAvatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/lbl_tim_sim_gia"
+        android:layout_alignTop="@+id/lbl_tim_sim_mang"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lbl_tim_sim_dinh_dang"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="15dp"
+        android:text="Mạng: "
+        android:textColor="@color/mColorTextView"
+        android:textSize="@dimen/font_size_small" />
+
+    <TextView
+        android:id="@+id/lbl_tim_sim_phong_thuy"
+        style="@style/smallText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="15dp"
+        android:layout_alignLeft="@+id/lbl_tim_sim_dinh_dang"
+        android:layout_below="@+id/textView2"
+        android:paddingBottom="10dp"
+        android:text="Điểm: " />
+    -->
+
+    <TextView
+        android:id="@+id/lbl_tim_sim_dinh_dang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="sdt"
+        android:textColor="@color/mColorTextView"
+        android:textSize="@dimen/font_size_medium"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lbl_provider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lbl_tim_sim_dinh_dang"
+        android:layout_below="@+id/lbl_tim_sim_dinh_dang"
+        android:text="Mạng: "
+        android:textColor="@color/mColorTextView"
+        android:textSize="@dimen/font_size_small" />
+
+    <TextView
+        android:id="@+id/lbl_point"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lbl_provider"
+        android:layout_below="@+id/lbl_provider"
+        android:text="Điểm: "
+        android:textColor="@color/mColorTextView"
+        android:textSize="@dimen/font_size_small" />
+
+    <TextView
+        android:id="@+id/lbl_tim_sim_gia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lbl_tim_sim_dinh_dang"
+        android:layout_alignBottom="@+id/lbl_tim_sim_dinh_dang"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:text="price"
+        android:textColor="@color/mColorTextView"
+        android:textSize="@dimen/font_size_medium"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lbl_tim_sim_mang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lbl_provider"
+        android:layout_alignBottom="@+id/lbl_provider"
+        android:layout_toRightOf="@+id/lbl_provider"
+        android:text="provider"
+        android:textColor="@color/mColorTextView"
+        android:textSize="@dimen/font_size_small"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lbl_ten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lbl_point"
+        android:layout_alignBottom="@+id/lbl_point"
+        android:layout_toLeftOf="@+id/imgMenhAvatar"
+        android:text="/10"
+        android:textSize="@dimen/font_size_small" />
+
+    <TextView
+        android:id="@+id/lbl_tim_sim_diem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lbl_ten"
+        android:layout_alignBottom="@+id/lbl_ten"
+        android:layout_toLeftOf="@+id/lbl_ten"
+        android:text="1-->10"
+        android:textColor="@color/mColorTextView"
+        android:textSize="@dimen/font_size_small"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgMenhAvatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lbl_tim_sim_gia"
+        android:layout_alignTop="@+id/lbl_tim_sim_mang"
+        android:src="@drawable/ic_launcher" />
+
+</RelativeLayout>
